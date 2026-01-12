@@ -466,7 +466,7 @@
                 <key>CustomSMBIOSGuid</key>
                 <false/>
                 <key>DisableIoMapper</key>
-                <false/>
+                <true/>
                 <key>DisableIoMapperMapping</key>
                 <false/>
                 <key>DisableLinkeditJettison</key>
@@ -726,7 +726,7 @@
             <key>APFS</key>
             <dict>
                 <key>EnableJumpstart</key>
-                <true/>
+                <false/>
                 <key>GlobalConnect</key>
                 <false/>
                 <key>HideVerbose</key>
@@ -855,6 +855,18 @@
                     <false/>
                     <key>Path</key>
                     <string>OpenCanopy.efi</string>
+                </dict>
+                <dict>
+                    <key>Arguments</key>
+                    <string></string>
+                    <key>Comment</key>
+                    <string></string>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>LoadEarly</key>
+                    <false/>
+                    <key>Path</key>
+                    <string>apfs_aligned.efi</string>
                 </dict>
             </array>
             <key>Input</key>
